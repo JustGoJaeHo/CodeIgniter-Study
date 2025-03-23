@@ -1,5 +1,7 @@
 <h2><?= esc($title) ?></h2>
 
+<p><a href="/news/edit">Create a news item</a></p>
+
 <?php if (! empty($news) && is_array($news)): ?>
 
     <?php foreach ($news as $news_item): ?>
